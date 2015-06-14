@@ -1,4 +1,7 @@
 
+Original README from Bill Wilson billw--at--gkrellm.net
+This is just a french release, no importante change made, only translation.
+
 rpi-clone is a shell script that will back up (clone using dd and rsync)
 a running Raspberry Pi file system to a destination SD card 'sdN' plugged
 into a Pi USB port (via a USB card reader).
@@ -59,7 +62,9 @@ or just to look around, don't forget to cd out of the /mnt/clone tree
 before telling rpi-clone to unmount.
 
 rpi-clone is on github, to get it and install it to /usr/local/sbin:
-Go to https://github.com/billw2/rpi-clone and download the zip file:
+Go to https://github.com/billw2/rpi-clone for original script
+or go to https://github.com/idem2lyon/rpi-clone for french users
+and download the zip file:
 
 	$ unzip rpi-clone-master.zip
 	$ cd rpi-clone-master
@@ -74,3 +79,6 @@ or, use git to clone the repository:
 
 Bill Wilson
 billw--at--gkrellm.net
+
+Translate by Mehdi HAMIDA
+idem--at--geekandmore.fr
